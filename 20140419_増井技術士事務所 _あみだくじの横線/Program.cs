@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics;
 
 namespace Amida
 {
@@ -14,8 +15,14 @@ namespace Amida
         static void Main()
         {
             const int ExpectedCount = 10;   // 求めたい横線の本数
-            List<int> inputList = new List<int> { 1, 2, 3, 4, 5, 6, 7 };    // 入力パターン
+            List<int> inputList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9};    // 入力パターン
+            //List<int> inputList = new List<int> { 1, 2, 3, 4, 5, 6, 7 };    // 入力パターン
+            //List<int> inputList = new List<int> { 1, 2, 3, 4, 5, 6 };    // 入力パターン
+            //List<int> inputList = new List<int> { 1, 2, 3, 4};    // 入力パターン
             List<Amida> amidaList = new List<Amida>();
+
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
 
             // 入力パターンに対する順列を生成
             Permutation perm = new Permutation(inputList.ToArray());
@@ -37,6 +44,9 @@ namespace Amida
 
             // 全出力パターンとあみだの横線数を表示
             //amidaList.ForEach(x => Console.WriteLine(x.GetResultString()));
+
+            sw.Stop();
+            Console.WriteLine("{0}ms", sw.ElapsedMilliseconds);
         }
     }
 }

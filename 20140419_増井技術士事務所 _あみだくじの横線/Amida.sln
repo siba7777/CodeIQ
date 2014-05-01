@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amida", "Amida.csproj", "{531DE845-4FB5-477A-947C-88AED2B5E400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAmida", "TestAmida\TestAmida.csproj", "{25ACE3A9-F24A-4066-AB39-22CBFE875840}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBC7089E-BD68-45AB-A653-D0F41336122E}"
 	ProjectSection(SolutionItems) = preProject
 		Amida.vsmdi = Amida.vsmdi
@@ -35,16 +33,6 @@ Global
 		{531DE845-4FB5-477A-947C-88AED2B5E400}.Release|Mixed Platforms.Build.0 = Release|x86
 		{531DE845-4FB5-477A-947C-88AED2B5E400}.Release|x86.ActiveCfg = Release|x86
 		{531DE845-4FB5-477A-947C-88AED2B5E400}.Release|x86.Build.0 = Release|x86
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{25ACE3A9-F24A-4066-AB39-22CBFE875840}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
